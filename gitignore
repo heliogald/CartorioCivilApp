@@ -1,0 +1,52 @@
+# Node modules
+**/node_modules/
+
+# Build Angular
+**/dist/
+**/out-tsc/
+
+# Angular environment files
+**/src/environments/*.ts
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Runtime files
+*.pid
+*.seed
+
+# Compiled output
+**/bin/
+**/obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+.env.*
+
+# SQLite database (ex: app.db ou cartorio.db, edite conforme o nome real)
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# EF Migrations metadata (opcional)
+**/Migrations/
+
+# npm logs
+npm-debug.log*
+
+# Yarn logs
+yarn-debug.log*
+yarn-error.log*
